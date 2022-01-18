@@ -145,6 +145,7 @@ passport.use(new GoogleStrategy({
 ));
 ```
 
+  - The code below after i changed it for our case.
 ```
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
