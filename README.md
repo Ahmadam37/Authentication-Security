@@ -30,6 +30,7 @@ $ npm install express-session
 $ npm install passport
 $ npm install passport-local-mongoose
 $ npm install passport-google-oauth2
+$ npm install mongoose-findorcreate
 ```
 
 
