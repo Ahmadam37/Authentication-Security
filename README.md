@@ -115,4 +115,9 @@ Before using `passport-google-oauth20` , you must register an application with G
    
    ![image](https://user-images.githubusercontent.com/51037193/149929793-7002f3f8-d579-4998-b0aa-8c1eba3a8d89.png)
    
+   - Then the **OAuth client created**.
    
+   ![image](https://user-images.githubusercontent.com/51037193/149930460-95291478-797e-4c82-b962-05f132ce9a93.png)
+
+## You have to keep them secret.
+
