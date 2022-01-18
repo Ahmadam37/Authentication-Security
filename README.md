@@ -1,5 +1,5 @@
 # Authentication-Security
-Signup &amp; Sign in form with mongoDB, Database Encryption, Hashing Password, OAuth 2.0
+
 
 ## Table of contents
 * [General info](#general-info)
