@@ -54,7 +54,7 @@ Before using `passport-google-oauth20` , you must register an application with G
 
 
 
-1. You have to click on OAuth consent screen
+1. You have to click on **OAuth consent screen**.
    - As you see in the below image
  
 ![image](https://user-images.githubusercontent.com/51037193/149899463-dc51cdce-9201-440c-b458-64893d54b35f.png)
@@ -67,7 +67,24 @@ Before using `passport-google-oauth20` , you must register an application with G
 
 
 3. You have to name your project.
-   - If you give a name of you project then you can leave everything else.
+   - If you give a name of you project then you can leave everything else then click **Create**.
   
 ![image](https://user-images.githubusercontent.com/51037193/149900877-7686bbde-f9bc-414c-ab3b-aac6bad35db4.png)
+
+
+4. setup project credentials
+   - And we're simply going to configure the screen that user sees when they login through Google and grant your application access to their data. So it's helpful for them to know what application they're talking about
+  ![image](https://user-images.githubusercontent.com/51037193/149902630-a62438ac-53bc-4674-bb07-c8fb71ffe972.png)
+  
+  - Project Scope
+   - And here the fields that you will receive once the user logsin through Google, in our case we are intrested in **email , profile , openid**.
+   ![image](https://user-images.githubusercontent.com/51037193/149904271-acacda06-9e9b-4cfc-9dda-0a57357c523b.png)
+
+![image](https://user-images.githubusercontent.com/51037193/149905687-a2effbcb-7b78-4a43-ba70-2795c8e23349.png)
+
+
+
+
+
+
 
