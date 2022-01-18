@@ -93,5 +93,26 @@ Before using `passport-google-oauth20` , you must register an application with G
 
 
 
+4. Now we will **create API credentials**.
+ - **Create OAuth client ID**, is going to allow us to authenticate them using Google.
+ 
+ 
+   ![image](https://user-images.githubusercontent.com/51037193/149926712-f5a23282-388f-4a06-b12d-d3af964e9277.png)
 
 
+
+ - In our case We will choise web application.
+ 
+   ![image](https://user-images.githubusercontent.com/51037193/149927279-ac4abb3e-a6a3-4dd5-beb1-474c5330f232.png)
+
+
+ - **Authorised JavaScript origins**
+   - Origin, so where is that request to Google going to come from. And in our case it's going to come from our local host `http://localhost:3000`.
+     ![image](https://user-images.githubusercontent.com/51037193/149928580-485aee40-8d6e-4b1e-a4f0-94e425afe259.png)
+
+ - **Authorised redirect URIs** 
+   - This is a route that we're going to plan out on our server when Google has authenticated our user to return to so that we can then locally authenticate them and save the session and cookies and all of that, in our case the **Authorised redirect URIs** will be `http://localhost:3000/auth/google/secrets` then click **Create**.
+   
+   ![image](https://user-images.githubusercontent.com/51037193/149929793-7002f3f8-d579-4998-b0aa-8c1eba3a8d89.png)
+   
+   
