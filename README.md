@@ -161,3 +161,16 @@ passport.use(new GoogleStrategy({
   }
 ));
 ```
+
+
+
+
+
+6.Initiate a route to authentication with **Google**
+
+```
+app.get('/auth/google', passport.authenticate('google', { 
+	scope: [ 'email', 'profile' ] 
+}
+));
+```
