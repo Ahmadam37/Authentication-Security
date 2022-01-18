@@ -121,3 +121,41 @@ Before using `passport-google-oauth20` , you must register an application with G
 
 **You have to keep your "Client ID & Your Client Secret" secret, You have to put that to .env file**
 
+
+
+
+
+
+
+5. [Passport strategy for Google OAuth 2.0](http://www.passportjs.org/packages/passport-google-oauth2/)
+
+ - This code below from the Passport strategy for Google OAuth 2.0 Documentation.
+```
+passport.use(new GoogleStrategy({
+    clientID:     GOOGLE_CLIENT_ID,
+    clientSecret: GOOGLE_CLIENT_SECRET,
+    callbackURL: "http://yourdomain:3000/auth/google/callback",
+    passReqToCallback   : true
+  },
+  function(request, accessToken, refreshToken, profile, done) {
+    User.findOrCreate({ googleId: profile.id }, function (err, user) {
+      return done(err, user);
+    });
+  }
+));
+```
+
+```
+passport.use(new GoogleStrategy({
+    clientID: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
+    callbackURL: "http://localhost:3000/auth/google/secrets",
+    passReqToCallback: true
+  },
+  function(request, accessToken, refreshToken, profile, done) {
+    User.findOrCreate({ googleId: profile.id }, function (err, user) {
+      return done(err, user);
+    });
+  }
+));
+```
