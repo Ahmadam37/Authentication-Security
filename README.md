@@ -5,7 +5,7 @@ Signup &amp; Sign in form with mongoDB, Database Encryption, Hashing Password, O
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#Project-setup)
-* [How to setup the passport-google-oauth2](#How to setup the passport-google-oauth2)
+* [How to setup the passport-google-oauth2](#How-to-setup-the-passport-google-oauth2)
 
 ## General info
 This project is simple Signup &amp; Sign-in form with mongoDB, Database Encryption, Hashing Password, OAuth 2.0.
