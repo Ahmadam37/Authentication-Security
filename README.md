@@ -4,7 +4,8 @@ Signup &amp; Sign in form with mongoDB, Database Encryption, Hashing Password, O
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Setup](#Project-setup)
+* [How to setup the passport-google-oauth2](#How to setup the passport-google-oauth2)
 
 ## General info
 This project is simple Signup &amp; Sign-in form with mongoDB, Database Encryption, Hashing Password, OAuth 2.0.
@@ -16,7 +17,7 @@ Project is created with:
 * bootstrap version: 4.2.1
 * mongoDB
 	
-## Setup
+## Project Setup
 To run this project, install it locally using npm:
 
 ```
