@@ -119,5 +119,5 @@ Before using `passport-google-oauth20` , you must register an application with G
    
    ![image](https://user-images.githubusercontent.com/51037193/149930460-95291478-797e-4c82-b962-05f132ce9a93.png)
 
-**You have to keep your "Client ID & Your Client Secret" secret.**
+**You have to keep your "Client ID & Your Client Secret" secret, You have to put that to .env file**
 
