@@ -55,3 +55,7 @@ $ npm install passport-google-oauth2
 ```
 const GoogleStrategy = require( 'passport-google-oauth2' ).Strategy;
 ```
+
+
+Before using passport-google-oauth20 , you must register an application with Google. If you have not already done so, a new project can be created in the [Google Developers Console](https://console.cloud.google.com/projectselector2/apis/dashboard?pli=1&supportedpurview=project). Your application will be issued a client ID and client secret, which need to be provided to the strategy. You will a;so need to configure a redirect URI which matches the route in your application.
+
